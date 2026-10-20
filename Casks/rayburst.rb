@@ -1,9 +1,9 @@
 cask "rayburst" do
   arch arm: "aarch64", intel: "x64"
 
-  version "4.0.1"
-  sha256 arm:   "a1fcc806b74b940b43b3e71dbcb43e8cee56ab5a6a07ecdc4311d6b78f2df08c",
-         intel: "1b1ebb7d1692bfc1a5b844343130fe4750975f208c4631969098f1a9c42aad2d"
+  version "4.1.0"
+  sha256 arm:   "4b5ab1d9ae2d845a28ab21a3d48fb61c5aca566988eddf4ef7523275732ab481",
+         intel: "8245620103c707f645472607dc32891e7d81d0921f93ad8ceabac5a9bfc76488"
 
   url "https://github.com/AnInsomniacy/rayburst/releases/download/v#{version}/Rayburst_#{arch}.app.tar.gz"
   name "Rayburst"
